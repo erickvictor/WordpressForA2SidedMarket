@@ -5,8 +5,8 @@
 
     !defined('DB_USER')          && define('DB_USER',          getenv('WORDPRESS_DB_USER')        ?: 'superuser');
     !defined('DB_NAME')          && define('DB_NAME',          getenv('WORDPRESS_DB_NAME')        ?: 'mysql-wordpress');
-    !defined('DB_PASSWORD')      && define('DB_PASSWORD',      getenv('WORDPRESS_DB_PASSWORD')    ?: 'oHExONy4DsnSEh9z');
-    !defined('DB_HOST')          && define('DB_HOST',          getenv('WORDPRESS_DB_HOST')        ?: 'wordpress-d0rvhi1uvvyu5bhc-svc.qovery.io');
+    !defined('DB_PASSWORD')      && define('DB_PASSWORD',      getenv('WORDPRESS_DB_PASSWORD')    ?: 'fFoL59Ne72e1oGYZ');
+    !defined('DB_HOST')          && define('DB_HOST',          getenv('WORDPRESS_DB_HOST')        ?: 'wordpress-o2nymjhy557a6z0r-svc.qovery.io');
     !defined('DB_CHARSET')       && define('DB_CHARSET',       getenv('WORDPRESS_DB_CHARSET')     ?: 'utf8');
     !defined('DB_COLLATE')       && define('DB_COLLATE',       getenv('WORDPRESS_DB_COLLATE')     ?: '');
 
