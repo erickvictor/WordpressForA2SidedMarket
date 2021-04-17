@@ -3,6 +3,8 @@ application:
   name: "wordpress"
   project: "Wordpress"
   organization: "QoveryCommunity"
+  publicly_accessible: true
+  port: 80
 databases:
 - type: "MYSQL"
   name: "wordpress"
