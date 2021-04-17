@@ -1,14 +1,8 @@
 ---
 application:
   name: "wordpress"
-  project: "Wordpress"
+  project: "wordpress"
   organization: "QoveryCommunity"
-  publicly_accessible: true
-  port: 80
-databases:
-- type: "MYSQL"
-  name: "wordpress"
-  version: "8.0"
 routers:
 - name: "main-wordpress"
   routes:
