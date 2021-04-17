@@ -3,6 +3,10 @@ application:
   name: "wordpress"
   project: "wordpress"
   organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "wordpress"
+  version: "8.0"
 routers:
 - name: "main-wordpress"
   routes:
