@@ -1,22 +1,15 @@
 ---
 application:
-  name: "wordpressfora2sidedmarket"
-  project: "genericwp"
-  publicly_accessible: true
-  port: 80
-
-  storage:
-  - name: "uploads"
-    size: "10"
-    type: "ssd"
-    mount_point: "/var/www/html/wp-content/uploads"
+  name: "wordpress"
+  project: "Wordpress"
+  organization: "QoveryCommunity"
 databases:
 - type: "MYSQL"
   name: "wordpress"
   version: "8.0"
 routers:
-- name: "main-wordpressfora2sidedmarket"
+- name: "main-wordpress"
   routes:
-  - application_name: "wordpressfora2sidedmarket"
+  - application_name: "wordpress"
     paths:
     - "/*"
