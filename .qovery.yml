@@ -1,15 +1,15 @@
 ---
 application:
-  name: "wp"
-  project: "cidades"
+  name: "wp-app"
+  project: "Wordpress-deleted-1618680404737"
   organization: "QoveryCommunity"
 databases:
 - type: "MYSQL"
-  name: "wp"
+  name: "wp-db"
   version: "5.7"
 routers:
-- name: "main-wp"
+- name: "main-wp-app"
   routes:
-  - application_name: "wp"
+  - application_name: "wp-app"
     paths:
     - "/*"
