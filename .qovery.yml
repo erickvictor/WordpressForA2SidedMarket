@@ -1,17 +1,15 @@
 ---
 application:
-  name: "wordpress"
-  project: "wordpress"
+  name: "wp"
+  project: "cidades"
   organization: "QoveryCommunity"
-  publicly_accessible: true
-  port: 80
 databases:
 - type: "MYSQL"
-  name: "wordpress"
-  version: "8.0"
+  name: "wp"
+  version: "5.7"
 routers:
-- name: "main-wordpress"
+- name: "main-wp"
   routes:
-  - application_name: "wordpress"
+  - application_name: "wp"
     paths:
     - "/*"
